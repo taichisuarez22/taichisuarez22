@@ -1,0 +1,87 @@
+/*****************************************************************
+
+    GENERAL
+
+/*****************************************************************/
+
+body {
+    padding-bottom: 40px;
+}
+
+
+/* HEADER */
+
+#header {
+    margin: 0;
+    background-color: #111;
+}
+
+#header img {
+    height: 22px;
+}
+
+@media (max-width: 767px) {
+    #header img {
+        height: 20px;
+    }
+}
+
+
+/*****************************************************************
+
+    HOME
+
+/*****************************************************************/
+
+
+/* INTRO */
+
+#intro {
+    background-color: #222;
+    background-image: url("../img/resina.jpg");
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+#intro h1 {
+    font-size: 60px;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+#content {
+    background-color: #c8f0bc;
+    border: 1px solid #CFD8DC;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+#content h2 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #CCC;
+}
+
+#content p {
+    font-size: 0.85rem;
+    text-align: justify;
+}
+
+#video h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    #intro {
+        padding: 60px 0;
+    }
+    #intro h1 {
+        font-size: 34px;
+    }
+}

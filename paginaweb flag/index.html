@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>WOODS AND STONES</title>
+
+    <!-- CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+
+    <!-- CSS Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
+
+    <!-- CSS Propio -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <nav id="header" class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/woods_and_stones_logo.png" alt="Hack Academy Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#links" aria-controls="links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div id="links" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ventas.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ventas.html">Ayuda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Links
+              </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://www.google.com/fonts">
+                  Google Fonts
+                </a>
+                            <a class="dropdown-item" href="https://material.google.com/style/color.html">
+                  Google Colors
+                </a>
+                            <a class="dropdown-item" href="https://unsplash.com/">
+                  Unsplash
+                </a>
+                            <a class="dropdown-item" href="http://fontawesome.io/">
+                  Font Awesome
+                </a>
+                            <a class="dropdown-item" href="https://ha.edu.uy">
+                  Hack Academy
+                </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="intro">
+        <div class="container">
+            <h1>Wood and stones</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="content">
+                    <h2>Texto en columnas y botones de Bootstrap</h2>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <button type="button" class="btn btn-primary btn-sm w-100 mb-4 mb-lg-0" data-bs-toggle="modal" data-bs-target="#mi-modal">
+                  <i class="fas fa-laptop"></i> que es la recina?
+                </button>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <button id="btn-popover" type="button" class="btn btn-success btn-sm w-100 mb-4 mb-lg-0" data-bs-toggle="popover" title="Título del Popover" data-bs-content="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                                data-placement="top">
+                  <i class="far fa-paper-plane"></i> Activar popover
+                </button>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <a href="https://www.instagram.com/?hl=es" target="_blank" class="btn btn-warning btn-sm w-100 btn-md">
+                                <i class="fas fa-code"></i> visita nuestro perfil de instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div id="video">
+                    <h3>Video de presentación</h3>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="" frameborder="0" allowfullscreen class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mi-modal" class="modal fade" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">que es la recina?</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        El término epoxi hace referencia tanto a cualquiera de los componentes como al producto final (curado) de las denominadas resinas epoxi. También es el nombre coloquial para el grupo funcional epóxido.1​ Las resinas epoxi, también llamadas poliepóxidos,
+                        son una clase de polímeros y prepolímeros reactivos, que contienen grupos epóxidos. La industria de la resina epoxi genera más de 5000 millones de dólares en América del Norte y unos 15.000 millones en el mundo entero. La resina
+                        epoxica en colombia y sus alrededores ha venido creciendo con el pasar de los tiempo, siendo esta una gran capital para la fabicacion con madera y resina epoxica. es un material versatil, con facil nivel de aprendizaje y enseñanza
+                        y con posibilidades casi infinitas para creacion de obras de arte, muebleria, carpinteria y diseños exclusivos.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Cerrar
+            </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.modal -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- JS de Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+    <!-- JS Propio -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
